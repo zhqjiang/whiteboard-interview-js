@@ -2,7 +2,7 @@
 
 Some interviews may ask you to write code on whiteboard or paper, this repository includes some common handwriting questions(JavaScript) and their solutions(not best practice).
 
-## 1. [custom iterator](./01_custom_iterator.js)
+## 1. [custom iterator](./src/01_custom_iterator.js)
 
 Requiremetns: write a class that implements iterator, which returns from 1 to given counts. Ensure the iterator of an instance can be used multiple times. Don't use `for`, `while`, `foreach`, `yield`.
 
@@ -24,7 +24,7 @@ for (let i of counter) {
 // 3
 ```
 
-## 2. [debounce](./02_debounce.js)
+## 2. [debounce](./src/02_debounce.js)
 
 write a simple debounce function
 
