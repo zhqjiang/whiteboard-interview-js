@@ -4,7 +4,7 @@ Some interviews may ask you to write code on whiteboard or paper, this repositor
 
 ## 1. [custom iterator](./01_custom_iterator.js)
 
-Requiremetns: write a class that implements iterator, which returns 1 to given counts. Ensure the iterator of an instance can be used multiple times. Don't use `for`, `while`, `foreach`, `yield`.
+Requiremetns: write a class that implements iterator, which returns from 1 to given counts. Ensure the iterator of an instance can be used multiple times. Don't use `for`, `while`, `foreach`, `yield`.
 
 About: `Iterator`, `Symbol`, `Class`
 
@@ -23,3 +23,9 @@ for (let i of counter) {
 // 2
 // 3
 ```
+
+## 2. [debounce](./02_debounce.js)
+
+write a simple debounce function
+
+> Lodash.\_deboune() Creates a debounced function that delays invoking func until after wait milliseconds have elapsed since the last time the debounced function was invoked.
