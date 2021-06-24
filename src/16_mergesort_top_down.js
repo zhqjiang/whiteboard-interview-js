@@ -45,11 +45,13 @@ function mergesort(arr) {
           j++
         }
       }
+
+      // copy back
+      copy(arr, temp, lo, hi)
     }
-    // copy back
-    copy(arr, temp, lo, hi)
   }
 
+  merge(arr)
   return arr
 }
 

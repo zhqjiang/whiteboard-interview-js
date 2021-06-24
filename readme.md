@@ -143,7 +143,12 @@ https://en.wikipedia.org/wiki/Merge_sort
 
 https://en.wikipedia.org/wiki/Shellsort
 
-## 18. [network request](./src/18_xhr.js)
+
+## 18. [heapsort](./src/18_heapsort.js)
+
+https://en.wikipedia.org/wiki/Heapsort
+
+## 19. [network request](./src/19_xhr.js)
 
 use promise, set type of response to json
 
